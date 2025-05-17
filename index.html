@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Churn Analysis Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Customer Churn Analysis Project</h1>
+      <p>Uncovering Key Drivers Behind Customer Attrition</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container content-wrapper">
+      <div class="text-content">
+        <h2>Project Overview</h2>
+        <p>This telecom churn analysis project explores customer behavior, support interaction, subscription details, and financial history to understand the reasons behind churn. Insights were derived using SQL, Python (Pandas), and Power BI to empower strategic retention decisions.</p>
+
+        <h2>Key Metrics</h2>
+        <ul>
+          <li>Total Customers: 1,000</li>
+          <li>Churned Customers: 242 (24.2%)</li>
+          <li>Non-Churned Customers: 758 (75.8%)</li>
+        </ul>
+
+        <h2>Insights & Analysis</h2>
+        <ul>
+          <li><strong>🔹 Gender:</strong> Female customers have a churn rate of <strong>31.89%</strong>, almost double that of males (<strong>16.93%</strong>).</li>
+          <li><strong>🔹 Age:</strong> No notable difference between churned and non-churned customers (avg ~41.5 years).</li>
+          <li><strong>🔹 Tenure:</strong> Churners have been with the company longer (avg <strong>37.07</strong> months) than non-churners (avg <strong>29.92</strong> months).</li>
+          <li><strong>🔹 Support Calls:</strong> Churned customers made more calls (avg <strong>6.27</strong>) than non-churners (avg <strong>4.31</strong>).</li>
+          <li><strong>🔹 Payment Delay:</strong> Churned users have an average payment delay of <strong>21.63</strong> days vs. <strong>13.03</strong> for non-churners.</li>
+          <li><strong>🔹 Usage Frequency:</strong> Low-frequency users are far more likely to churn (e.g., <strong>57.14%</strong> churn at frequency 1).</li>
+          <li><strong>🔹 Subscription Type:</strong> Churn is highest in <strong>Standard</strong> plans (26.4%), followed by <strong>Premium</strong> (24.3%), and lowest in <strong>Basic</strong> (21.95%).</li>
+          <li><strong>🔹 Contract Length:</strong> Customers with <strong>Monthly</strong> contracts churn the most (27.12%) compared to <strong>Annual</strong> (22.66%).</li>
+          <li><strong>🔹 Total Spend:</strong> Churners spend less (avg <strong>$530.67</strong>) than non-churners (avg <strong>$578.08</strong>).</li>
+        </ul>
+
+        <h2>Strategic Recommendations</h2>
+        <ul>
+          <li>🎯 Launch targeted retention programs for <strong>female customers</strong>.</li>
+          <li>📞 Flag and monitor users with high <strong>support call volumes</strong>.</li>
+          <li>💳 Implement <strong>payment reminders</strong> and flexible billing for customers with frequent delays.</li>
+          <li>📉 Focus on <strong>low-usage users</strong> early with engagement nudges or personalized offers.</li>
+          <li>📦 Promote <strong>longer-term contracts</strong> (Annual/Quarterly) with onboarding incentives.</li>
+          <li>📊 Reassess <strong>Standard subscription tier</strong> — revise pricing or bundled features.</li>
+          <li>💰 Target <strong>low-spend high-risk customers</strong> with loyalty or upsell campaigns.</li>
+        </ul>
+
+        <h2>Tools & Technologies Used</h2>
+        <ul>
+          <li><strong>SQL:</strong> Used to clean and preprocess the dataset (remove duplicates, handle nulls, format types).</li>
+          <li><strong>Python + Pandas:</strong> For statistical analysis, group comparisons, and in-depth EDA.</li>
+          <li><strong>Power BI:</strong> Built interactive dashboards with filters, KPIs, and visual breakdowns.</li>
+          <li><strong>Excel:</strong> Used for early profiling and correlation validation.</li>
+        </ul>
+
+        <h2>Project Downloads</h2>
+        <div class="download-buttons">
+          <a class="btn-link" href="cleaned_churn.xlsx" download>📥 Cleaned Excel Data</a>
+          <a class="btn-link" href="EDA.py" download>📥 EDA Python Script</a>
+          <a class="btn-link" href="churn project.pdf" download>📥 Power BI Dashboard (PDF)</a>
+          <a class="btn-link" href="Customer_Churn_rate_Analysis_Report.docx" download>📥 Detailed Word Report</a>
+          <a class="btn-link" href="cleaning_queries.sql" download>📥 SQL Queries for cleaning data</a>
+        </div>
+
+        <a href="https://github.com/Souranil-Biswas/customer-churn-analysis" target="_blank" class="github-link">🔗 View Full Project on GitHub</a>
+      </div>
+
+      <div class="image-content">
+        <h2 class="ss-heading">Dashboard Preview</h2>
+        <div class="ss-grid vertical">
+          <img src="churn project_page-0001.jpg" alt="Customer Churn Dashboard Screenshot" class="tall-img" />
+          <img src="Screenshot 2025-05-18 011035.png" alt="Customer Churn Dashboard Screenshot" class="tall-img" />
+          <img src="Screenshot 2025-05-18 012218.png" alt="Customer Churn Dashboard Screenshot" class="tall-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Souranil Biswas | <a href="https://www.linkedin.com/in/souranil-biswas-0a52a6343" target="_blank" class="linkedin">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
